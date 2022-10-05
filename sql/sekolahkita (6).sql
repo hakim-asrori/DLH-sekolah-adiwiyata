@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 26 Sep 2022 pada 05.01
+-- Waktu pembuatan: 03 Okt 2022 pada 13.30
 -- Versi server: 10.4.14-MariaDB
 -- Versi PHP: 7.4.9
 
@@ -491,7 +491,8 @@ INSERT INTO `tbl_pengunjung` (`pengunjung_id`, `pengunjung_tanggal`, `pengunjung
 (981, '2022-09-11 13:14:59', '::1', 'Chrome'),
 (982, '2022-09-19 14:15:00', '::1', 'Chrome'),
 (983, '2022-09-21 03:06:34', '::1', 'Chrome'),
-(984, '2022-09-26 02:37:25', '::1', 'Chrome');
+(984, '2022-09-26 02:37:25', '::1', 'Chrome'),
+(985, '2022-10-01 13:40:07', '::1', 'Chrome');
 
 -- --------------------------------------------------------
 
@@ -798,7 +799,7 @@ ALTER TABLE `tbl_pengumuman`
 -- AUTO_INCREMENT untuk tabel `tbl_pengunjung`
 --
 ALTER TABLE `tbl_pengunjung`
-  MODIFY `pengunjung_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=985;
+  MODIFY `pengunjung_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=986;
 
 --
 -- AUTO_INCREMENT untuk tabel `tbl_siswa`
